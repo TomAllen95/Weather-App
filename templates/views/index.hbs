@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>nav}}
+    <h1> A magical page where you can find out the weather in many different locations</h1>
+<h1>{{title}}</h1>
+<h1>Created by {{author}}</h1>
+   
+<h1>City: {{city}} Country: {{country}} Temp: {{temp}} Humidity: {{humidity}} Current Weather: {{weather}}</h1>
+
+
+
+<form action="/" method="POST">
+    <label for="city">City: </label>
+    <input id="city" type='text' name="city" >
+    <br>
+    <label for="country">Country: </label>
+    <input type='text' name="country" id='country' >
+    <br>
+    <button type='submit' value='send' id="submit">CLICK ME TO ACCESS MIND OF WEATHER GOD</button> 
+</form>
+<script src='./js/main.js'></script>
+</body>
+</html>
+

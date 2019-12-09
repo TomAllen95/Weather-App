@@ -1,0 +1,21 @@
+{
+  "name": "weatherapp-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "hbs": "^4.0.6",
+    "nodemon": "^2.0.1",
+    "request": "^2.88.0"
+  }
+}
